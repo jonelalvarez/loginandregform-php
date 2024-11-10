@@ -1,0 +1,148 @@
+/* LOGIN PAGE CSS */
+.login-page table, .login-page th, .login-page td {
+    border: 1px solid black;
+}
+.login-page .card {
+    margin-top: 150px;
+    border-radius: 36px;
+    border: 5px solid black;
+    height: 470px;
+    max-width: 450px;
+}
+.login-page .card-footer {
+    background-color: black;
+    margin-top: 30px;
+    border-bottom-left-radius: 29px !important; 
+    border-bottom-right-radius: 29px !important;
+}
+.login-page p {
+    color: white;
+    font-weight: bold;
+}
+.login-page a {
+    color: #fedd01;
+    font-weight: bolder;
+}
+.login-page .form-control {
+    border: 2px solid black;
+}
+.login-page .btn {
+    margin-bottom: -11px;
+    margin-top: 12px;
+    background-color: black;
+    color: #fedd01;
+}
+.login-page label {
+    padding-right: 100%;
+    font-weight: bolder;
+}
+.login-page .btn:hover {
+    background-color: #fedd01;
+    color: black;
+}
+
+/* HOME PAGE CSS */
+/* forms */
+.home-page table, th, td {
+	border:1px solid black;
+}
+.home-page span{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #fedd01;
+    text-shadow: 2px 2px 1px black, -2px -2px 2px black, 2px -2px 2px black, -2px 2px 2px black;
+
+}
+.home-page .main-card{
+	border: 5px solid black;
+	border-radius: 0px;
+}
+.home-page .card-header{
+	border-top-left-radius: 0px !important; 
+	border-top-right-radius: 0px !important;
+}
+.home-page label{
+	font-weight: bold;
+}
+.addButton .btn {
+    background-color: black;
+    color: #fedd01;
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+}
+
+.addButton .btn:hover {
+    transform: translateY(2px); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7); 
+}
+/* customer infos */
+.home-page .info-card{
+	background-color: #fedd01;
+	border: 5px solid black;
+	border-radius: 0px;
+}
+.home-page .card-title{
+	color: black
+}
+
+.info-card a:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+}
+
+
+/* REGISTER PAGE CSS */
+/* .login-page table, .login-page th, .login-page td {
+    border: 1px solid black;
+} */
+.reg-page .card {
+    margin-top: 150px;
+    border-radius: 36px;
+    border: 5px solid black;
+    height: 590px;
+    max-width: 450px;
+}
+.reg-page .card-footer {
+    background-color: black;
+    margin-top: 28px;
+    border-bottom-left-radius: 29px !important; 
+    border-bottom-right-radius: 29px !important;
+}
+.reg-page p {
+    color: white;
+    font-weight: bold;
+}
+.reg-page a {
+    color: #fedd01;
+    font-weight: bolder;
+}
+.reg-page .form-control {
+    border: 2px solid #fedd01;
+}
+.reg-page .btn {
+    margin-bottom: -19px;
+    margin-top: 12px;
+    background-color: black;
+    color: #fedd01;
+}
+.reg-page label {
+    padding-right: 100%;
+    font-weight: bolder;
+}
+.reg-page .btn:hover {
+    background-color: #fedd01;
+    color: black;
+}
+
+/* delete user */
+.delete-page .info-card{
+	background-color: #fedd01;
+	border: 5px solid black;
+	border-radius: 0px;
+}
+.delete-page .card-title{
+	color: black
+}
+
+.delete-page .info-card .btn:hover {
+    transform: scale(1.05); 
+    transition: transform 0.2s ease; 
+}
