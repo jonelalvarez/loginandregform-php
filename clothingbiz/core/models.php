@@ -247,7 +247,7 @@ function updateUser($pdo, $username, $email, $user_id, $author)
 	$executeQuery = $stmt->execute([$username, $email, $author, $user_id]);
 
 	if ($executeQuery) {
-		$_SESSION['message'] = "User updated successfuly!";
+		$_SESSION['message'] = "User updated successfully!";
 		return true;
 	} else {
 		$_SESSION['message'] = "An error occured from the query";
@@ -264,7 +264,7 @@ function deleteUser($pdo, $user_id)
 	$executeQuery = $stmt->execute([$user_id]);
 
 	if ($executeQuery) {
-		$_SESSION['message'] = "User deleted successfuly!";
+		$_SESSION['message'] = "User deleted successfully!";
 		return true;
 	}
 }
